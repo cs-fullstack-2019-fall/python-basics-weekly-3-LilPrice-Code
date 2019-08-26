@@ -1,3 +1,9 @@
+#### Some creative approaches here. Nice touch! 
+#### Design notes need more detail and you need to avoid using 'break' as generally not necessary. See code comments, you didn't need to #### reset deposit amt or break and it still would work fine.
+
+#### Try to avoid using ANY breaks in your work.
+
+
 # python-basics-weekly-3
 
 ## Create a bank program.
