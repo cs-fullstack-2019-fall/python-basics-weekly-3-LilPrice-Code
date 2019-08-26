@@ -56,16 +56,19 @@ while menu != 4:
                         print(f"{account}'s new balance is ${balance}.")
                         send = input("Press enter to exit.")
                         print("-----------------------------------------------------------------------")
-                        withdraw = 0
-                        break
+                        ### No need to break as code in below blocks will be skipped by conditional block.
+                        ### You DO NOT want to set withdraw amt back to zero as your while loop is based on that condition.
+                        # withdraw = 0
+                        # break
                     # Stoping over withdrawing from happening
                     elif withdraw > balance:
                         print("Insufficient funds")
                         print(f"{account}'s balance is ${balance}.")
                         send = input("Press enter to exit.")
                         print("-----------------------------------------------------------------------")
-                        withdraw = 0
-                        break
+                        ### Same here as above
+                        # withdraw = 0
+                        # break
             elif pinch != pin:
                 send = 0
                 # Pim Try again loop
